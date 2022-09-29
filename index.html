@@ -8,7 +8,16 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
     }
+
+    .subscribe-button:hover {
+        opacity: 0.8;
+    }
+    .subscribe-button:active {
+        opacity: 0.5;
+    }
+
     .join-button {
         background-color:white;
         border-color: rgb(41, 118, 211);
@@ -19,10 +28,24 @@
         width: 62px;
         border-radius: 2px;
         cursor: pointer;
+        transition: background-color 0.15s,
+        color 0.15s;
     }
+
+    .join-button:hover {
+        background-color: rgb(41, 118, 211);
+        color: white;
+
+    }
+
+    .join-button:active {
+        opacity: 0.7;
+    }
+
     .tweet-button {
         background-color: rgb(2, 158, 255);
         color: white;
+        border: none;
         border-color: white;
         border-style: solid;
         border-radius: 18px;
@@ -32,7 +55,13 @@
         font-weight: bold;
         font-size: 15px;
         margin-left: 8px;
+        transition: box-shadow 0.15s;
     }
+
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
     .uber-button {
         margin-top: 8px;
         background-color: black;
@@ -40,8 +69,11 @@
         height: 36px;
         width: 110px;
         cursor: pointer;
-
     }
+    .uber-button:hover{
+        opacity: 0.8;
+    }
+
     .linkedln-apply-button{
         margin-top: 8px;
         border-radius: 14px;
@@ -55,6 +87,10 @@
         cursor: pointer;
 
     }
+    .linkedln-apply-button:hover {
+        background-color: rgb(7, 80, 153);
+    }
+
     .linkedln-save-button{
         border-radius: 14px;
         border-width: 1px;
@@ -68,6 +104,13 @@
         border-style: solid;
         margin-left: 6px;
     }
+
+    .linkedln-save-button:hover{
+        opacity: 0.9;
+        background-color: rgb(193, 219, 247);
+        border-width:1.5px;
+    }
+
 
 </Style>
 
@@ -96,3 +139,4 @@
 <button class="linkedln-save-button">
     Save
 </button>
+ 
