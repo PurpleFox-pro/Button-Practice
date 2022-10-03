@@ -6,4 +6,4 @@
 
 - used html and css for this practice 
 
-- In thge pm.html file, instead of doing height and width i worked with padding. 
+- In the pm.html file, instead of doing height and width i worked with padding. 
